@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    /* background-color: black; */
+    /* color: rgb(119, 172, 218); */
+    height: 100%; 
+    width: 100%;
+}
+
+.page1{
+    
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2{
+    background-color: lightcoral;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3{
+    background-color: lightgreen;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border-radius: 30px;
+
+} 
+
